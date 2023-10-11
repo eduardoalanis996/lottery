@@ -31,7 +31,7 @@ The project can run locally if set all enviroment variables and run the followin
 
 ```bash
 node ace migration:run
-node ace seed
+node ace db:seed
 node ace serve --watch
 ```
 
