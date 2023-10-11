@@ -1,0 +1,40 @@
+.App {
+  background-color: #282c34;
+  width: 100%;
+  color: white;
+  min-height: 100vh;
+}
+.App-header {
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.App-header > input {
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.App-header > button {
+  height: 40px;
+  margin-left: 20px;
+}
+.App-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: auto;
+  align-content: start;
+}
+.boardItem {
+  border: 1px solid white;
+  margin: 11px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+}
