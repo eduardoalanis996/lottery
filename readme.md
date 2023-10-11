@@ -47,4 +47,4 @@ npm run start
 
 ### EXAMPLE APP
 
-![Example](https://github.com/eduardoalanis996/lottery/example.png)
+![Example](https://github.com/eduardoalanis996/lottery/blob/main/example.png)
